@@ -1,0 +1,152 @@
+/*
+Theme Name: NoticiasJero
+Theme URI: https://youtube.com
+Author: Jero
+Author URI: https://github.com
+Desciption:
+Version: 0.1
+License: MIT
+Licencese url: no
+Text Domain: noticiasjerotheme
+*/
+
+.main-nav{
+    background-color: black;
+    margin: 40px;
+}
+ul {
+    border: 2px solid rgb(125, 71, 197);
+    border-radius: 25px;
+    width: 100%;
+    background-color: #b7b6bbad;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    flex: 1 1 120px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    align-content: center;
+}
+body{
+    align-items: center;
+    font-family: "Lexend", sans-serif;
+    background: linear-gradient(180deg, #000000, #2c446e, #000000);
+}
+.titulo{
+    background-color: #9a92ac;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+.contenido{
+    background-color: rgba(212, 212, 212, 0.658);
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+.entrada{
+    background-color: rgba(139, 130, 130, 0.582);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: 2px solid rgb(125, 71, 197);
+    border-radius: 25px;
+    
+    flex: 1 1 200px;
+    
+}
+
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+.titulotextarea{
+    font-size: 26px;
+}
+form input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-size: 23px;
+}
+
+.contenidoform{
+    height: 300px;
+}
+
+h1, h2{
+    text-align: center;
+    font-weight: 700;
+    color: whitesmoke;
+}
+label{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+section.entradascabecera {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(61, 61, 61, 0.596);
+    
+}
+section.entradas{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.entradacabecera {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.tituloentrada{
+    display: flex;
+    flex-direction: row;
+    
+    align-self: center;
+}
+
+.eliminar{
+    font-size: 5px;
+    flex:1;
+    justify-content: right;
+    background-color: rgba(42, 25, 88, 0.623);
+    height: 40px;
+    max-width: 50px;
+}
+h3{
+    flex:11;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#weblogo{
+    width: 40%;
+    height: inherit;
+}
