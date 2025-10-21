@@ -14,18 +14,8 @@
         <section class='entradascabecera'>
             <h2>Entradas del Blog</h2>
         <?php
-            $entradas = [];
-            if (have_posts()){
-                while (have_posts()){
-                    
-                    echo "<div class='entrada'>";
-                    $contenido = the_post("<div class='entrada'>", "</div>");
-                    $titulo = the_title("<div class='tituloentrada'><h3 class='titulo'>", "</h3></div>");
-                    echo "<p class='contenido'>";
-                    the_content();
-                    echo "</p></div>";
-                }
-            }
+        echo "estoy en index";
+            get_template_part('template-parts/loop-generico');
         ?>
         
         <?php get_footer(); ?>
