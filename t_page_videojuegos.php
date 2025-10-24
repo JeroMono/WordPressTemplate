@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Pagina Programación
+ * Template Name: Pagina Videojuegos
  * Description: Plantilla de página con estructura propia.
  */
 ?>
@@ -9,7 +9,7 @@
 
 <main id="site-content" class="container">
   <?php
-    get_template_part('template-parts/loop-prog');
+    get_template_part('template-parts/loop-videojuegos');
     
   ?>
 </main>

@@ -21,8 +21,14 @@ function jerotheme_scripts_styles(){
 }
 add_action('wp_enqueue_scripts', 'jerotheme_scripts_styles');
 
+function jerothemess_setup(){
+    //imagen destaca 
+    add_theme_support('post-thumbail');
+    //titulos dinámicos
+    add_theme_support('title-tag');
 
-
+}
+add_action('after_setup_theme','jerothemess_setup' );
 
 
 /**
